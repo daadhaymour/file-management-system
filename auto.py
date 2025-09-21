@@ -8,9 +8,10 @@ from watchdog.observers import Observer
 from watchdog.events import LoggingEventHandler
 from watchdog.events import FileSystemEventHandler
 
-source_dir = r"C:\Users\lenov\Downloads"
-images_dir = r"C:\Users\lenov\Downloads\Images"
-documents_dir = r"C:\Users\lenov\Downloads\Documents"
+#add local paths to where you want these files placed
+source_dir = r""
+images_dir = r""
+documents_dir = r""
 
 image_extensions = [".jpg", ".jpeg", ".jpe", ".jif", ".jfif", ".jfi", ".png", ".gif", ".webp", ".tiff", ".tif", ".psd", ".raw", ".arw", ".cr2", ".nrw",
                     ".k25", ".bmp", ".dib", ".heif", ".heic", ".ind", ".indd", ".indt", ".jp2", ".j2k", ".jpf", ".jpf", ".jpx", ".jpm", ".mj2", ".svg", ".svgz", ".ai", ".eps", ".ico"]
